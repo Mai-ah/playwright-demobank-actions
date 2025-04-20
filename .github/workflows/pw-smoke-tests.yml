@@ -1,4 +1,4 @@
-name: Playwright Smoke Tests
+name: Playwright smoke tests
 on:
  push:
    branches: [main, master]
