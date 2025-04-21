@@ -5,12 +5,10 @@ on:
   pull_request:
     branches: [main, master]
 
-
 permissions: # needed, because we need permissions in one of steps in child workflow (run-tests.yml)
   contents: read
   checks: write
   id-token: write
-
 
 jobs:
   running-tests:
